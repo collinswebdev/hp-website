@@ -1,0 +1,103 @@
+/* @font-face {
+  font-family: "Mango Grotesque";
+  src: url("./fonts/MangoGrotesque-SemiBold-BF6a47cba8b4c2a.ttf") format("truetype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "MangoGrotesque";
+  src: url("./fonts/MangoGrotesque-Regular-BF6a47cba903375.ttf") format("truetype");
+  font-style: italic;
+} */
+body {
+    font-family: "inter Tight" , Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 200vh;
+}
+header { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    border-bottom: 1px solid rgb(230, 226, 226);
+}
+ul {
+    list-style-type: none;
+    color: rgb(173, 173, 173);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    gap: 28px;
+    margin-right: 450px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.logo-img {
+    width: 40px;
+    margin-right: 0px;
+    padding-top: 18px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.search-img {
+   width: 20px;
+   color: blue;
+}
+.search-btn {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.search-btn:hover {
+    color: blue;
+}
+.cart-img {
+    width: 20px;
+    background-color: white;
+}
+
+.cart-btn {
+    background-color: white;
+    border: none;
+}
+.user-btn {
+    background-color: white;
+    border: none;
+}
+.user-img {
+    width: 20px;
+}
+.right-div {
+    display: flex;
+    gap: 5px;
+    margin-right: 20px;
+}
+#search {
+    padding: 8px 8px;
+
+}
+#search:active {
+    border: none;
+}
+.hpfb {
+    color: #0057D9;
+    font-size: 15px;
+    background: white ;
+    border: 1px solid #0057D9;
+    border-radius: 8px;
+    padding: 7px 15px;
+    transition: background-color 0.2s ease;
+}
+
+.hpfb:hover {
+    background: #0b67f059;
+}
+@media (max-width: 1024px) {
+    ul {
+        font-size: 25px;
+    }
+}
